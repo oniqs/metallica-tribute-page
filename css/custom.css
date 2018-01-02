@@ -1,0 +1,47 @@
+body {
+  font-family: 'Nunito';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather';
+}
+
+svg {
+  min-width: 100px;
+  max-width: 42%;
+  margin-top: -40px;
+  margin-bottom: -18px;
+  background: white;
+}
+
+#bordered-container {
+  margin-top: 50px;
+  border: solid 5px;
+}
+
+#star-awards {
+  list-style: none;
+}
+
+#star-awardsli:before {
+  content: "\2605";
+  padding-right: 8px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 5%;
+  z-index: 9999;
+  opacity: 0;
+  border: 3px solid rgb(233, 236, 239);
+}
+
+#back-to-top.show {
+  opacity: 1;
+}
